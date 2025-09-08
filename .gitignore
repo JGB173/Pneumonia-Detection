@@ -1,0 +1,43 @@
+# Dataset - exclude large image files
+Code/chest_xray/
+*.jpg
+*.jpeg
+*.png
+*.tiff
+*.bmp
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+archive.zip
+Code/archive.zip
+
+# Data directories
+data/
+datasets/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+env/
+venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Model files
+*.h5
+*.pkl
+*.joblib
+models/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
